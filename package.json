@@ -1,6 +1,6 @@
 {
   "name": "leaflet.tools.measure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loongship Project Special Package",
   "main": "./src/L.Control.measure.js",
   "scripts": {
@@ -16,6 +16,5 @@
     "url": "https://github.com/loongship/leaflet.tools.measure/issues"
   },
   "homepage": "https://github.com/loongship/leaflet.tools.measure#readme",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
