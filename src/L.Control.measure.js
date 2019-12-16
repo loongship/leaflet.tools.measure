@@ -342,7 +342,6 @@ L.Control.Measure = L.Control.extend({
         }
     }
 });
-var _measureControl = null;
 
 L.Map.mergeOptions({
     measureControl: false
