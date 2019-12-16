@@ -1,0 +1,19 @@
+{
+  "name": "leaflet.tools.measure",
+  "version": "1.0.0",
+  "description": "Loongship Project Special Package",
+  "main": "./src/L.Control.measure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loongship/leaflet.tools.measure.git"
+  },
+  "author": "jeili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loongship/leaflet.tools.measure/issues"
+  },
+  "homepage": "https://github.com/loongship/leaflet.tools.measure#readme"
+}
