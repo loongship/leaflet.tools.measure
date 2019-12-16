@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/loongship/leaflet.tools.measure/issues"
   },
-  "homepage": "https://github.com/loongship/leaflet.tools.measure#readme"
+  "homepage": "https://github.com/loongship/leaflet.tools.measure#readme",
+  "dependencies": {
+  }
 }
