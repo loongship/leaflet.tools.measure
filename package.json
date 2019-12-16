@@ -1,6 +1,6 @@
 {
   "name": "leaflet.tools.measure",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Loongship Project Special Package",
   "main": "./src/L.Control.measure.js",
   "scripts": {
