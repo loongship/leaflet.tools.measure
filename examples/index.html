@@ -24,6 +24,8 @@
 <body>
     <div id="map"></div>
     <script>
+        /* 
+        //添加控件方法1
         var map = L.map('map', {
             center: [31, 122],
             measureControl: true,
@@ -34,9 +36,24 @@
             subdomains: [0, 1, 2, 3],
             continuousWorld: true,
             crs: L.CRS.EPSG3857,
+        }).addTo(map) */
+
+        //添加控件方法2
+        // map.measureControl.start()
+
+        var map = L.map('map', {
+            center: [31, 122],
+            zoom: 5
+        })
+        L.tileLayer('http://www.google.cn/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m3!1e0!2sm!3i342009817!3m9!2szh-CN!3sCN!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0', {
+            subdomains: [0, 1, 2, 3],
+            continuousWorld: true,
+            crs: L.CRS.EPSG3857,
         }).addTo(map)
 
-        map.measureControl.start()
+        L.control.measure({}).addTo(map)
+
+
     </script>
 </body>
 

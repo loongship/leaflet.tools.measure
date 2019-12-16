@@ -8,7 +8,7 @@ L.Control.Measure = L.Control.extend({
         //  shortcut to cancel measure, defaults to 'Esc'
         cancelKeyCode: 27,
         //  line color
-        lineColor: "black",
+        lineColor: "#0088fd",
         //  line weight
         lineWeight: 2,
         //  line dash
@@ -158,7 +158,6 @@ L.Control.Measure = L.Control.extend({
     },
 
     _mouseClick: function(e) {
-        console.log("click");
         if (!e.latlng) {
             return;
         }
